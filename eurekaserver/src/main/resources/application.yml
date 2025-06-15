@@ -1,0 +1,12 @@
+
+    # No need to configure fetch-registry or register-with-eureka for Eureka Server
+#    service-url:
+ #     defaultZone: http://localhost:8761/eureka/  # Eureka server URL for Eureka clients
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
